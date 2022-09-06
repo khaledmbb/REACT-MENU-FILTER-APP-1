@@ -1,0 +1,20 @@
+:root {
+  --color: blue;
+}
+.categories {
+  margin: 50px auto;
+  display: block;
+}
+.categories ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.categories ul li {
+  background-color: var(--color);
+  color: white;
+  cursor: pointer;
+  padding: 5px 14px;
+  border-radius: 5px;
+}

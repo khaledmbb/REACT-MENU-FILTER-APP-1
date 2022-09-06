@@ -1,0 +1,47 @@
+:root {
+  --color: blue;
+}
+.menu .container {
+  padding: 0;
+}
+.menu .container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.menu .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.menu .container ul li .img-box {
+  width: 40%;
+  height: 150px;
+}
+.menu .container ul li .img-box img {
+  border: 3px solid var(--color);
+  border-radius: 5px;
+  width: 100%;
+  height: 100%;
+}
+.menu .container ul li .info-box {
+  width: 60%;
+}
+.menu .container ul li .info-box .top {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dotted var(--color);
+  margin-bottom: 10px;
+  justify-content: space-between;
+}
+.menu .container ul li .info-box .top .price {
+  font-weight: 500;
+  color: var(--color);
+}
+.menu .container ul li .info-box .desc {
+  margin-top: 10px;
+}
+.menu .container ul li .info-box .desc p {
+  font-size: 15px;
+}
